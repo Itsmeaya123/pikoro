@@ -1,0 +1,304 @@
+:root{
+    --gradient:linear-gradient(90deg, #fdc800,#fdc800);
+}
+
+body{
+    background: #f0f4f9;
+}
+
+*{
+    font-family:monospace;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    margin-right: 30px;
+}
+
+*::selection{
+    background:
+;
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1.5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#333;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(#f0f4f9,#f0f4f9);
+}
+
+section{
+    min-height: 100vh;
+    padding:1rem 7%;
+    padding-top:6rem;
+}
+
+.btn{
+    padding:.7rem 3rem;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--gradient);
+    border-radius: 5rem;
+    margin-top: 1rem;
+        margin-right: 30px;
+    cursor: pointer;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    top:-1rem; left:-100%;
+    background:#fff9;
+    height:150%;
+    width:20%;
+    transform: rotate(25deg);
+    z-index: -1;
+}
+
+.btn:hover::before{
+    transition: .3s linear;
+    left: 120%;
+}
+
+.heading{
+    color:#444;
+    padding:1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    padding:1.5rem 7%;
+    background:var(--gradient);
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+        
+        .logo2{
+          left: 40;
+        }
+ .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    list-style: none;
+}
+
+ .navbar ul li{
+    margin:0 1rem;
+}
+.navbar ul li a{
+    font-size: 2rem;
+    color:#002147;
+}
+.navbar ul li a.active,
+ .navbar ul li a:hover{
+    color:#002147;
+}
+        .button{
+font-size: 15px;
+            font-weight: bold;
+                background :#fdc800;
+            width: 100px;
+            padding: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #002147;
+            border-radius: 5px;
+            cursor: pointer;
+       }
+
+h3{
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: #002147;
+    margin-left: 500px;
+}
+h1{
+    font-family:serif;
+    font-size: 8rem;
+    color: #002147;
+    margin-left: 100px;
+}
+.tofla{
+    margin-left: 900px;
+    margin-top:-200px ;
+}
+.logo
+{
+    position: left;
+    margin-right: 400px;
+}
+
+.zarga
+        
+{
+    position: center;
+    margin-left: 150px;
+}
+h2 
+        {
+            font-family:serif;
+    font-size: 6rem;
+    color: #002147;
+    margin-left: 500px;
+            
+        }
+        .column {
+            float: left;
+            margin-top: 100px;
+               margin-left: 100px;
+           width: 300px;
+            
+
+        }
+         .col {
+            float: left;
+            margin-top: 100px;
+               margin-left: 100px;
+            margin-top: 30px;
+             width: 300px;
+
+        }   .com {
+            float: left;
+            margin-top: 100px;
+               margin-left: 100px;
+            margin-top: 30px;
+            width: 300px;
+
+        }
+.tsawer {
+   
+    margin-top: -300px;
+    margin-left: 120px;
+  
+}
+
+h5
+{
+     font-family:serif;
+    font-size: 6rem;
+    color:#002147;
+    margin-left: 700px;
+    margin-top: 500px;
+            
+        }
+        .feedback span{
+            color: #fdc800;
+            font-family: serif;
+                margin-top: 500px;
+
+        }
+p {
+      font-family:monospace;
+    font-size: 1.5rem;
+    color: black ;
+    margin-left: 700px;
+  
+}
+h6 
+{
+    font-family:monospace;
+    font-size: 2rem;
+    color:  darkblue ;
+    margin-left: 700px;
+}
+    
+    .taswira {
+   
+    position: absolute;
+    margin-left: 580px;
+        margin-top: -100px;
+}
+.safra {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -30px;
+}
+.bidha{
+    position: absolute;
+   
+    margin-top:-420px;
+
+}
+<!---------------------------->
+.feed{
+    margin-left: 15%;
+}
+.lol h1{
+    font-family: monospace;
+    font-size: 3rem;
+    margin-left: 400px;
+    margin-top: -400px;
+    color: #fdc800;
+}
+.lol h4{
+   
+    font-family: serif;
+    font-size: 5rem;
+    margin-left: 400px;
+    margin-top: 10px;
+    color: #002147;
+}
+.mail{
+    border-radius: 30px;
+    margin-left: 400px;
+    width: 20px;
+    border: 3px;
+}
+hgroup{
+   
+    left: 40%;
+    top: 40%;
+}
+button{
+    padding: 5px;
+    border-color: black;
+    background-color: #fdc800;
+    color: black;
+}
+.houma{
+    margin-left:-380px;
+}
+
+.foot {
+    margin-top: 500px;
+    margin-left: -120px;
+}
+.oui {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+.oui p{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+.aa {
+    position: absolute;
+    margin-top: -550px;
+}
